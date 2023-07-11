@@ -1,0 +1,32 @@
+{
+  "name": "@r3ps4j/i18next-cfx-language-detector",
+  "version": "1.0.0",
+  "description": "Language detector for FXServer",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3ps4J/i18next-cfx-language-detector.git"
+  },
+  "keywords": [
+    "i18next",
+    "i18next-language-detector",
+    "citizenfx"
+  ],
+  "author": "r3ps4J",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/r3ps4J/i18next-cfx-language-detector/issues"
+  },
+  "homepage": "https://github.com/r3ps4J/i18next-cfx-language-detector#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
