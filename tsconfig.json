@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
-        "target": "ES5",
+        "target": "ES2017",
         "module": "CommonJS",
         "declaration": true,
         "outDir": "./lib",
-        "strict": true
+        "strict": true,
+        "types": ["@citizenfx/client"]
     },
     "include": ["src"],
     "exclude": ["node_modules"]

@@ -26,11 +26,13 @@
   },
   "homepage": "https://github.com/r3ps4J/i18next-cfx-language-detector#readme",
   "devDependencies": {
+    "@citizenfx/client": "^2.0.6551-1",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "i18next": "^23.2.8",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6"
   },
