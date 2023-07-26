@@ -10,8 +10,9 @@ function getDefaults(): DetectorOptions {
     };
 }
 
-class LanguageDetector {
+class LanguageDetector implements LanguageDetectorModule {
     static type = "languageDetector" as const;
+    type = LanguageDetector.type;
 
     private services!: Services;
     private detectorOptions!: DetectorOptions;
