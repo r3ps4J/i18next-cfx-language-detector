@@ -28,7 +28,10 @@ class LanguageDetector implements LanguageDetectorModule {
     }
 
     detect() {
-        let lng: string | undefined = GetConvar(this.detectorOptions.convar, GetConvar("locale", ""));
+        let lng: string | undefined = GetConvar(this.detectorOptions.convar, "");
+        if (lng == "") {
+            lng = GetConvar("locale", "");
+        }
         if (lng == "") {
             lng = undefined;
         }
